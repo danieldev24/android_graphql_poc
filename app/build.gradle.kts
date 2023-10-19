@@ -14,7 +14,7 @@ apollo {
 
 android {
     namespace = "com.hscoding.graphqlprep"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.hscoding.graphqlcountriesapp"
@@ -77,4 +77,6 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.42")
     kapt("androidx.hilt:hilt-compiler:1.0.0")
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 }
